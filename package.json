@@ -1,7 +1,7 @@
 {
   "name": "excel",
   "version": "1.0.0",
-  "description": "Pure JavaScript Excel Application ",
+  "description": "Pure JavaScript Excel Application",
   "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Palaxius/excel-javascript.git"
+    "url": "git+https://github.com/palaxius/excel-javascript.git"
   },
   "keywords": [
     "js",
@@ -20,7 +20,7 @@
   "author": "Andrey Avtushenko <palaxius@mail.ru>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Palaxius/excel-javascript/issues"
+    "url": "https://github.com/palaxius/excel-javascript/issues"
   },
   "homepage": "https://github.com/Palaxius/excel-javascript#readme",
   "browserslist": "> 0.25%, not dead",

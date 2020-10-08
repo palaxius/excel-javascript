@@ -11,8 +11,9 @@
   border-bottom: 1px solid $border-color;
   padding: 7px 10px;
   display: flex;
+  user-select: none;
 
   .button {
-    @include button(green);
+    @include button(lime);
   }
 }

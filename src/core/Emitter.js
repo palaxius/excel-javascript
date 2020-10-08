@@ -3,8 +3,7 @@ export class Emitter {
     this.listeners = {}
   }
 
-  // dispatch. Уведомляем слушателей
-  // 'formula:done'
+  // Уведомляем слушателе если они есть
   emit(event, ...args) {
     if (!Array.isArray(this.listeners[event])) {
       return false
@@ -15,7 +14,8 @@ export class Emitter {
     return true
   }
 
-  // Подписываеся на увведомления (добавлям нового слушателя)
+  // Подписываемся на уведомление
+  // Добавляем нового слушателя
   subscribe(event, fn) {
     this.listeners[event] = this.listeners[event] || []
     this.listeners[event].push(fn)
