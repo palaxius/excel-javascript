@@ -13,7 +13,8 @@
     "eol-last": "off",
     "no-trailing-spaces": "off",
     "padded-blocks": "off",
-    "operator-linebreak": "off"
+    "operator-linebreak": "off",
+    "linebreak-style":  ["error", "windows"]
   },
   "extends": ["eslint:recommended", "google"]
 }
